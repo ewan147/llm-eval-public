@@ -1,0 +1,44 @@
+{
+  "name": "eval-pack",
+  "version": "0.1.0",
+  "description": "An evaluation harness that refuses to give you a verdict you haven't earned. Zero dependencies.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.6"
+  },
+  "scripts": {
+    "test": "node --test \"tests/*.test.ts\"",
+    "run:forecast": "node cli.ts run forecast",
+    "run:classifier": "node cli.ts run classifier",
+    "run:agent": "node cli.ts run agent-task",
+    "run:rag": "node cli.ts run rag",
+    "audit": "node cli.ts audit",
+    "example": "node examples/run-all.ts",
+    "run:judge": "node cli.ts run judge",
+    "example:judge": "node examples/judge-and-pipeline.ts",
+    "protocol:audit": "node cli.ts protocol audit",
+    "protocol:run": "node cli.ts protocol run",
+    "protocol:ping": "node cli.ts protocol ping",
+    "scorecard": "node cli.ts scorecard",
+    "example:models": "node examples/protocol-models.ts"
+  },
+  "keywords": [
+    "evaluation",
+    "llm",
+    "calibration",
+    "brier",
+    "baseline",
+    "mcnemar",
+    "bootstrap"
+  ],
+  "files": [
+    "core",
+    "adapters",
+    "report",
+    "cli.ts",
+    "fixtures",
+    "README.md",
+    "LICENSE"
+  ]
+}

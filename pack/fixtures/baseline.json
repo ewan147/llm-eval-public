@@ -1,0 +1,2038 @@
+{
+ "about": "Référence externe contre laquelle mesurer le système, sur les mêmes items. Les valeurs sont des prix inversés : 1/valeur donne une probabilité implicite dont la somme dépasse 1. Retirer la surronde avant toute comparaison (removeOverround dans src/baseline.ts).",
+ "provenance": {
+  "perValueTimestamp": false,
+  "note": "DÉFAUT CONNU, CONSERVÉ TEL QUEL : observedAt est porté par l'ITEM, pas par chaque valeur. Impossible donc de certifier que deux valeurs d'un même item ont été relevées au même instant. Voir METHODE.md, piège 4.",
+  "sources": {
+   "source_01": "relevé dédié, horodaté à l'item",
+   "source_02": "embarquée dans l'instantané de production, non horodatée"
+  }
+ },
+ "partitions": [
+  {
+   "id": "partition_01",
+   "categories": [
+    "cat_01",
+    "cat_02",
+    "cat_03"
+   ]
+  },
+  {
+   "id": "partition_02",
+   "categories": [
+    "cat_04",
+    "cat_35"
+   ]
+  },
+  {
+   "id": "partition_03",
+   "categories": [
+    "cat_05",
+    "cat_36"
+   ]
+  },
+  {
+   "id": "partition_04",
+   "categories": [
+    "cat_37",
+    "cat_03"
+   ]
+  },
+  {
+   "id": "partition_05",
+   "categories": [
+    "cat_38",
+    "cat_01"
+   ]
+  },
+  {
+   "id": "partition_06",
+   "categories": [
+    "cat_39",
+    "cat_02"
+   ]
+  }
+ ],
+ "count": 161,
+ "baseline": [
+  {
+   "itemId": "item_0082",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.32,
+    "cat_03": 3.15,
+    "cat_02": 13.5
+   }
+  },
+  {
+   "itemId": "item_0117",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 2.95,
+    "cat_03": 2,
+    "cat_39": 1.21,
+    "cat_02": 3.9,
+    "cat_37": 1.6,
+    "cat_38": 1.3,
+    "cat_04": 1.48,
+    "cat_35": 2.1,
+    "cat_05": 1.44,
+    "cat_36": 2.2
+   }
+  },
+  {
+   "itemId": "item_0072",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 2.95,
+    "cat_03": 2.2,
+    "cat_39": 1.26,
+    "cat_02": 3.4,
+    "cat_37": 1.52,
+    "cat_38": 1.3,
+    "cat_04": 1.72,
+    "cat_35": 1.74,
+    "cat_05": 1.58,
+    "cat_36": 1.92
+   }
+  },
+  {
+   "itemId": "item_0073",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 4,
+    "cat_03": 1.9,
+    "cat_39": 1.28,
+    "cat_02": 3.35,
+    "cat_37": 1.78,
+    "cat_38": 1.19,
+    "cat_04": 1.92,
+    "cat_35": 1.58,
+    "cat_05": 1.76,
+    "cat_36": 1.7
+   }
+  },
+  {
+   "itemId": "item_0074",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.26,
+    "cat_03": 7.25,
+    "cat_39": 1.09,
+    "cat_02": 6,
+    "cat_37": 1.05,
+    "cat_38": 3.25,
+    "cat_04": 1.23,
+    "cat_35": 3.15,
+    "cat_05": 1.48,
+    "cat_36": 2.1
+   }
+  },
+  {
+   "itemId": "item_0075",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.32,
+    "cat_03": 7.25,
+    "cat_39": 1.12,
+    "cat_02": 5.3,
+    "cat_37": 1.05,
+    "cat_38": 2.9,
+    "cat_04": 1.41,
+    "cat_35": 2.3,
+    "cat_05": 1.66,
+    "cat_36": 1.82
+   }
+  },
+  {
+   "itemId": "item_0118",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 2.05,
+    "cat_03": 3.05,
+    "cat_39": 1.24,
+    "cat_02": 3.75,
+    "cat_37": 1.31,
+    "cat_38": 1.64,
+    "cat_04": 1.45,
+    "cat_35": 2.2,
+    "cat_05": 1.41,
+    "cat_36": 2.3
+   }
+  },
+  {
+   "itemId": "item_0119",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.39,
+    "cat_03": 6.75,
+    "cat_39": 1.15,
+    "cat_02": 4.7,
+    "cat_37": 1.06,
+    "cat_38": 2.75,
+    "cat_04": 1.66,
+    "cat_35": 1.82,
+    "cat_05": 1.9,
+    "cat_36": 1.6
+   }
+  },
+  {
+   "itemId": "item_0076",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 2.05,
+    "cat_03": 3.3,
+    "cat_39": 1.27,
+    "cat_02": 3.5,
+    "cat_37": 1.27,
+    "cat_38": 1.66,
+    "cat_04": 1.84,
+    "cat_35": 1.64,
+    "cat_05": 1.7,
+    "cat_36": 1.76
+   }
+  },
+  {
+   "itemId": "item_0077",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.19,
+    "cat_03": 11,
+    "cat_39": 1.07,
+    "cat_02": 6.75,
+    "cat_37": 1.01,
+    "cat_38": 4.2,
+    "cat_04": 1.32,
+    "cat_35": 2.2,
+    "cat_05": 1.88,
+    "cat_36": 1.6
+   }
+  },
+  {
+   "itemId": "item_0171",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 5.7,
+    "cat_03": 1.15
+   }
+  },
+  {
+   "itemId": "item_0165",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.06,
+    "cat_03": 9.5
+   }
+  },
+  {
+   "itemId": "item_0172",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.41,
+    "cat_03": 2.95
+   }
+  },
+  {
+   "itemId": "item_0175",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 6.25,
+    "cat_03": 1.13
+   }
+  },
+  {
+   "itemId": "item_0193",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 4.5,
+    "cat_03": 1.66,
+    "cat_39": 1.22,
+    "cat_02": 3.75,
+    "cat_37": 1.94,
+    "cat_38": 1.14,
+    "cat_35": 1.8,
+    "cat_04": 1.68,
+    "cat_05": 1.66,
+    "cat_36": 1.8
+   }
+  },
+  {
+   "itemId": "item_0201",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:55.000Z",
+   "references": {
+    "cat_01": 1.09,
+    "cat_03": 19.25,
+    "cat_02": 9.99,
+    "cat_04": 1.27,
+    "cat_35": 3.56
+   }
+  },
+  {
+   "itemId": "item_0200",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.76,
+    "cat_03": 3.95,
+    "cat_39": 1.26,
+    "cat_02": 3.35,
+    "cat_37": 1.17,
+    "cat_38": 1.86,
+    "cat_35": 1.62,
+    "cat_04": 1.86,
+    "cat_05": 1.76,
+    "cat_36": 1.7
+   }
+  },
+  {
+   "itemId": "item_0204",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:54.399Z",
+   "references": {
+    "cat_01": 1.1,
+    "cat_03": 19.91,
+    "cat_02": 10.44,
+    "cat_04": 1.19,
+    "cat_35": 4.49
+   }
+  },
+  {
+   "itemId": "item_0240",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 4,
+    "cat_03": 1.56,
+    "cat_39": 1.15,
+    "cat_02": 4.5,
+    "cat_37": 2.05,
+    "cat_38": 1.17,
+    "cat_04": 1.23,
+    "cat_35": 3.2,
+    "cat_05": 1.29,
+    "cat_36": 2.75
+   }
+  },
+  {
+   "itemId": "item_0297",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.12,
+    "cat_03": 6.75
+   }
+  },
+  {
+   "itemId": "item_0367",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 2.9,
+    "cat_03": 1.4
+   }
+  },
+  {
+   "itemId": "item_0298",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 11.5,
+    "cat_03": 1.04
+   }
+  },
+  {
+   "itemId": "item_0299",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.32,
+    "cat_03": 3.45
+   }
+  },
+  {
+   "itemId": "item_0300",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.47,
+    "cat_03": 2.75
+   }
+  },
+  {
+   "itemId": "item_0301",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.33,
+    "cat_03": 3.4
+   }
+  },
+  {
+   "itemId": "item_0302",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 4.9,
+    "cat_03": 1.19
+   }
+  },
+  {
+   "itemId": "item_0303",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.64,
+    "cat_03": 2.25
+   }
+  },
+  {
+   "itemId": "item_0305",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 2.35,
+    "cat_03": 1.56
+   }
+  },
+  {
+   "itemId": "item_0306",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 12.5,
+    "cat_03": 1.04
+   }
+  },
+  {
+   "itemId": "item_0304",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 2.4,
+    "cat_03": 1.58
+   }
+  },
+  {
+   "itemId": "item_0227",
+   "source": "source_01",
+   "observedAt": "2026-09-04T07:04:42.978Z",
+   "references": {
+    "cat_01": 2.34,
+    "cat_03": 2.91,
+    "cat_02": 3.38,
+    "cat_04": 1.87,
+    "cat_35": 1.86
+   }
+  },
+  {
+   "itemId": "item_0228",
+   "source": "source_01",
+   "observedAt": "2026-09-04T07:04:43.063Z",
+   "references": {
+    "cat_01": 2.05,
+    "cat_03": 3.6,
+    "cat_02": 3.36,
+    "cat_04": 1.95,
+    "cat_35": 1.8
+   }
+  },
+  {
+   "itemId": "item_0229",
+   "source": "source_01",
+   "observedAt": "2026-09-04T07:04:43.136Z",
+   "references": {
+    "cat_01": 2.68,
+    "cat_03": 2.52,
+    "cat_02": 3.4,
+    "cat_04": 1.85,
+    "cat_35": 1.89
+   }
+  },
+  {
+   "itemId": "item_0230",
+   "source": "source_01",
+   "observedAt": "2026-09-04T07:04:43.210Z",
+   "references": {
+    "cat_01": 1.66,
+    "cat_03": 4.83,
+    "cat_02": 3.91,
+    "cat_04": 1.75,
+    "cat_35": 2.01
+   }
+  },
+  {
+   "itemId": "item_0231",
+   "source": "source_01",
+   "observedAt": "2026-09-04T07:04:43.276Z",
+   "references": {
+    "cat_01": 1.85,
+    "cat_03": 4.05,
+    "cat_02": 3.61,
+    "cat_04": 1.87,
+    "cat_35": 1.86
+   }
+  },
+  {
+   "itemId": "item_0232",
+   "source": "source_01",
+   "observedAt": "2026-09-04T07:04:43.343Z",
+   "references": {
+    "cat_01": 2.18,
+    "cat_03": 3.07,
+    "cat_02": 3.6,
+    "cat_04": 1.62,
+    "cat_35": 2.23
+   }
+  },
+  {
+   "itemId": "item_0388",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.15,
+    "cat_03": 10,
+    "cat_39": 1.07,
+    "cat_02": 6.5,
+    "cat_37": 1.02,
+    "cat_38": 4.1,
+    "cat_04": 1.49,
+    "cat_35": 2.1,
+    "cat_05": 2.15,
+    "cat_36": 1.45
+   }
+  },
+  {
+   "itemId": "item_0241",
+   "source": "source_01",
+   "observedAt": "2026-09-04T07:04:43.419Z",
+   "references": {
+    "cat_01": 2.63,
+    "cat_03": 2.48,
+    "cat_02": 3.48,
+    "cat_04": 1.72,
+    "cat_35": 2.05
+   }
+  },
+  {
+   "itemId": "item_0242",
+   "source": "source_01",
+   "observedAt": "2026-09-04T07:04:43.484Z",
+   "references": {
+    "cat_01": 3.26,
+    "cat_03": 2.15,
+    "cat_02": 3.43,
+    "cat_04": 1.87,
+    "cat_35": 1.87
+   }
+  },
+  {
+   "itemId": "item_0243",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.98,
+    "cat_03": 3.4,
+    "cat_39": 1.28,
+    "cat_02": 3.15,
+    "cat_37": 1.22,
+    "cat_38": 1.6,
+    "cat_04": 2.05,
+    "cat_35": 1.5,
+    "cat_05": 1.82,
+    "cat_36": 1.64
+   }
+  },
+  {
+   "itemId": "item_0307",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 2.75,
+    "cat_03": 1.46
+   }
+  },
+  {
+   "itemId": "item_0308",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.04,
+    "cat_03": 12.5
+   }
+  },
+  {
+   "itemId": "item_0309",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 2.15,
+    "cat_03": 1.7
+   }
+  },
+  {
+   "itemId": "item_0310",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 3.9,
+    "cat_03": 1.27
+   }
+  },
+  {
+   "itemId": "item_0311",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 2,
+    "cat_03": 1.8
+   }
+  },
+  {
+   "itemId": "item_0312",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.72,
+    "cat_03": 2.15
+   }
+  },
+  {
+   "itemId": "item_0313",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.94,
+    "cat_03": 1.88
+   }
+  },
+  {
+   "itemId": "item_0314",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 2.25,
+    "cat_03": 1.66
+   }
+  },
+  {
+   "itemId": "item_0315",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.23,
+    "cat_03": 4.3
+   }
+  },
+  {
+   "itemId": "item_0317",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.3,
+    "cat_03": 3.65
+   }
+  },
+  {
+   "itemId": "item_0316",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.11,
+    "cat_03": 6.75
+   }
+  },
+  {
+   "itemId": "item_0244",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 2.1,
+    "cat_03": 3.1,
+    "cat_39": 1.28,
+    "cat_02": 3.15,
+    "cat_37": 1.26,
+    "cat_38": 1.54,
+    "cat_04": 2,
+    "cat_35": 1.52,
+    "cat_05": 1.8,
+    "cat_36": 1.68
+   }
+  },
+  {
+   "itemId": "item_0245",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.9,
+    "cat_03": 3.7,
+    "cat_39": 1.29,
+    "cat_02": 3.1,
+    "cat_37": 1.19,
+    "cat_38": 1.66,
+    "cat_04": 2.2,
+    "cat_35": 1.44,
+    "cat_05": 1.96,
+    "cat_36": 1.56
+   }
+  },
+  {
+   "itemId": "item_0318",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 2.6,
+    "cat_03": 1.5
+   }
+  },
+  {
+   "itemId": "item_0319",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.62,
+    "cat_03": 2.3
+   }
+  },
+  {
+   "itemId": "item_0320",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 2.2,
+    "cat_03": 1.68
+   }
+  },
+  {
+   "itemId": "item_0321",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 5.4,
+    "cat_03": 1.16
+   }
+  },
+  {
+   "itemId": "item_0322",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 2.6,
+    "cat_03": 1.5
+   }
+  },
+  {
+   "itemId": "item_0323",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.9,
+    "cat_03": 1.92
+   }
+  },
+  {
+   "itemId": "item_0395",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 4.4,
+    "cat_03": 1.56,
+    "cat_39": 1.19,
+    "cat_02": 4,
+    "cat_37": 2.05,
+    "cat_38": 1.14,
+    "cat_35": 2.05,
+    "cat_04": 1.5,
+    "cat_05": 1.56,
+    "cat_36": 1.96
+   }
+  },
+  {
+   "itemId": "item_0385",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.12,
+    "cat_03": 6.5
+   }
+  },
+  {
+   "itemId": "item_0419",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.4,
+    "cat_03": 3.05
+   }
+  },
+  {
+   "itemId": "item_0386",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 13,
+    "cat_03": 1.03
+   }
+  },
+  {
+   "itemId": "item_0438",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.86,
+    "cat_03": 1.88,
+    "cat_02": 8.5
+   }
+  },
+  {
+   "itemId": "item_0448",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.27,
+    "cat_03": 2.85,
+    "cat_02": 4.4
+   }
+  },
+  {
+   "itemId": "item_0449",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.86,
+    "cat_03": 1.66,
+    "cat_02": 4.1
+   }
+  },
+  {
+   "itemId": "item_0450",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.16,
+    "cat_03": 5.4
+   }
+  },
+  {
+   "itemId": "item_0396",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 2.05,
+    "cat_03": 2.9,
+    "cat_39": 1.24,
+    "cat_02": 3.5,
+    "cat_37": 1.29,
+    "cat_38": 1.56,
+    "cat_35": 2,
+    "cat_04": 1.54,
+    "cat_05": 1.46,
+    "cat_36": 2.15
+   }
+  },
+  {
+   "itemId": "item_0397",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 3.85,
+    "cat_03": 1.68,
+    "cat_39": 1.2,
+    "cat_02": 3.8,
+    "cat_37": 1.88,
+    "cat_38": 1.18,
+    "cat_35": 2.25,
+    "cat_04": 1.42,
+    "cat_05": 1.43,
+    "cat_36": 2.2
+   }
+  },
+  {
+   "itemId": "item_0373",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.12,
+    "cat_03": 6.5
+   }
+  },
+  {
+   "itemId": "item_0387",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 7,
+    "cat_03": 1.11
+   }
+  },
+  {
+   "itemId": "item_0420",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 4.5,
+    "cat_03": 1.21
+   }
+  },
+  {
+   "itemId": "item_0399",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 2.05,
+    "cat_03": 2.7,
+    "cat_39": 1.21,
+    "cat_02": 3.75,
+    "cat_37": 1.33,
+    "cat_38": 1.54,
+    "cat_35": 2.4,
+    "cat_04": 1.37,
+    "cat_05": 1.35,
+    "cat_36": 2.5
+   }
+  },
+  {
+   "itemId": "item_0398",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.74,
+    "cat_03": 4.3,
+    "cat_39": 1.27,
+    "cat_02": 3.2,
+    "cat_37": 1.15,
+    "cat_38": 1.8,
+    "cat_35": 1.48,
+    "cat_04": 2.1,
+    "cat_05": 1.98,
+    "cat_36": 1.56
+   }
+  },
+  {
+   "itemId": "item_0400",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 5.9,
+    "cat_03": 1.32,
+    "cat_39": 1.11,
+    "cat_02": 5.3,
+    "cat_37": 2.75,
+    "cat_38": 1.08,
+    "cat_35": 2.8,
+    "cat_04": 1.29,
+    "cat_05": 1.47,
+    "cat_36": 2.15
+   }
+  },
+  {
+   "itemId": "item_0451",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 2.4,
+    "cat_03": 1.58
+   }
+  },
+  {
+   "itemId": "item_0439",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.6,
+    "cat_03": 2.25,
+    "cat_02": 9
+   }
+  },
+  {
+   "itemId": "item_0452",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.5,
+    "cat_03": 2.6
+   }
+  },
+  {
+   "itemId": "item_0401",
+   "source": "source_01",
+   "observedAt": "2026-09-04T07:04:44.561Z",
+   "references": {
+    "cat_01": 1.36,
+    "cat_03": 6.83,
+    "cat_02": 4.87,
+    "cat_04": 1.48,
+    "cat_35": 2.54
+   }
+  },
+  {
+   "itemId": "item_0446",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.62,
+    "cat_03": 4.6,
+    "cat_39": 1.22,
+    "cat_02": 3.65,
+    "cat_37": 1.13,
+    "cat_38": 1.98,
+    "cat_35": 1.68,
+    "cat_04": 1.8,
+    "cat_05": 1.78,
+    "cat_36": 1.68
+   }
+  },
+  {
+   "itemId": "item_0402",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.96,
+    "cat_03": 3.05,
+    "cat_39": 1.23,
+    "cat_02": 3.55,
+    "cat_37": 1.27,
+    "cat_38": 1.62,
+    "cat_35": 2,
+    "cat_04": 1.54,
+    "cat_05": 1.48,
+    "cat_36": 2.1
+   }
+  },
+  {
+   "itemId": "item_0447",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 2.6,
+    "cat_03": 2.2,
+    "cat_39": 1.22,
+    "cat_02": 3.65,
+    "cat_37": 1.49,
+    "cat_38": 1.36,
+    "cat_35": 2.3,
+    "cat_04": 1.41,
+    "cat_05": 1.37,
+    "cat_36": 2.4
+   }
+  },
+  {
+   "itemId": "item_0403",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.6,
+    "cat_03": 4,
+    "cat_39": 1.18,
+    "cat_02": 4.1,
+    "cat_37": 1.16,
+    "cat_38": 2,
+    "cat_35": 2.55,
+    "cat_04": 1.33,
+    "cat_05": 1.38,
+    "cat_36": 2.35
+   }
+  },
+  {
+   "itemId": "item_0374",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.36,
+    "cat_03": 3.2
+   }
+  },
+  {
+   "itemId": "item_0421",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.08,
+    "cat_03": 8
+   }
+  },
+  {
+   "itemId": "item_0404",
+   "source": "source_01",
+   "observedAt": "2026-09-04T07:04:44.307Z",
+   "references": {
+    "cat_01": 3.71,
+    "cat_03": 2.01,
+    "cat_02": 3.41,
+    "cat_04": 1.87,
+    "cat_35": 1.87
+   }
+  },
+  {
+   "itemId": "item_0405",
+   "source": "source_01",
+   "observedAt": "2026-09-04T07:04:44.155Z",
+   "references": {
+    "cat_01": 2.25,
+    "cat_03": 2.92,
+    "cat_02": 3.53,
+    "cat_04": 1.66,
+    "cat_35": 2.13
+   }
+  },
+  {
+   "itemId": "item_0406",
+   "source": "source_01",
+   "observedAt": "2026-09-04T07:04:44.239Z",
+   "references": {
+    "cat_01": 1.76,
+    "cat_03": 4.52,
+    "cat_02": 3.66,
+    "cat_04": 1.76,
+    "cat_35": 2.01
+   }
+  },
+  {
+   "itemId": "item_0453",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 2.05,
+    "cat_03": 1.72,
+    "cat_02": 21
+   }
+  },
+  {
+   "itemId": "item_0454",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.84,
+    "cat_03": 3.8,
+    "cat_39": 1.26,
+    "cat_02": 3.25,
+    "cat_37": 1.19,
+    "cat_38": 1.72,
+    "cat_35": 1.6,
+    "cat_04": 1.88,
+    "cat_05": 1.74,
+    "cat_36": 1.72
+   }
+  },
+  {
+   "itemId": "item_0455",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.6,
+    "cat_03": 1.96,
+    "cat_02": 20
+   }
+  },
+  {
+   "itemId": "item_0422",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.5,
+    "cat_03": 2.6
+   }
+  },
+  {
+   "itemId": "item_0456",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 2.5,
+    "cat_03": 2.65,
+    "cat_39": 1.32,
+    "cat_02": 2.9,
+    "cat_37": 1.34,
+    "cat_38": 1.38,
+    "cat_35": 1.42,
+    "cat_04": 2.25,
+    "cat_05": 1.9,
+    "cat_36": 1.6
+   }
+  },
+  {
+   "itemId": "item_0423",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 2,
+    "cat_03": 1.82
+   }
+  },
+  {
+   "itemId": "item_0424",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 2.5,
+    "cat_03": 1.54
+   }
+  },
+  {
+   "itemId": "item_0425",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.78,
+    "cat_03": 2.05
+   }
+  },
+  {
+   "itemId": "item_0426",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.41,
+    "cat_03": 3
+   }
+  },
+  {
+   "itemId": "item_0427",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.13,
+    "cat_03": 6
+   }
+  },
+  {
+   "itemId": "item_0457",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 3.6,
+    "cat_03": 1.84,
+    "cat_39": 1.25,
+    "cat_02": 3.35,
+    "cat_37": 1.7,
+    "cat_38": 1.2,
+    "cat_04": 1.84,
+    "cat_35": 1.64,
+    "cat_05": 1.7,
+    "cat_36": 1.76
+   }
+  },
+  {
+   "itemId": "item_0458",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.78,
+    "cat_03": 4,
+    "cat_39": 1.26,
+    "cat_02": 3.25,
+    "cat_37": 1.16,
+    "cat_38": 1.76,
+    "cat_04": 2.15,
+    "cat_35": 1.45,
+    "cat_05": 2,
+    "cat_36": 1.54
+   }
+  },
+  {
+   "itemId": "item_0459",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.42,
+    "cat_03": 7.25,
+    "cat_39": 1.19,
+    "cat_02": 3.6,
+    "cat_37": 1.04,
+    "cat_38": 2.45,
+    "cat_04": 2.2,
+    "cat_35": 1.43,
+    "cat_05": 2.5,
+    "cat_36": 1.33
+   }
+  },
+  {
+   "itemId": "item_0429",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 5.1,
+    "cat_03": 1.18
+   }
+  },
+  {
+   "itemId": "item_0430",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 6.25,
+    "cat_03": 1.13
+   }
+  },
+  {
+   "itemId": "item_0440",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 2,
+    "cat_03": 1.78
+   }
+  },
+  {
+   "itemId": "item_0441",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.98,
+    "cat_03": 1.78
+   }
+  },
+  {
+   "itemId": "item_0442",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.82,
+    "cat_03": 1.94
+   }
+  },
+  {
+   "itemId": "item_0460",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 2.15,
+    "cat_03": 3,
+    "cat_39": 1.29,
+    "cat_02": 3.05,
+    "cat_37": 1.27,
+    "cat_38": 1.5,
+    "cat_04": 2.2,
+    "cat_35": 1.44,
+    "cat_05": 1.9,
+    "cat_36": 1.6
+   }
+  },
+  {
+   "itemId": "item_0443",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 2,
+    "cat_03": 1.74
+   }
+  },
+  {
+   "itemId": "item_0431",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.15,
+    "cat_03": 5.8
+   }
+  },
+  {
+   "itemId": "item_0461",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 5.3,
+    "cat_03": 1.62,
+    "cat_39": 1.24,
+    "cat_02": 3.65,
+    "cat_37": 2,
+    "cat_38": 1.11,
+    "cat_04": 1.8,
+    "cat_35": 1.66,
+    "cat_05": 1.8,
+    "cat_36": 1.68
+   }
+  },
+  {
+   "itemId": "item_0462",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 7.5,
+    "cat_03": 1.23,
+    "cat_39": 1.09,
+    "cat_02": 5.9,
+    "cat_37": 3.35,
+    "cat_38": 1.04,
+    "cat_04": 1.26,
+    "cat_35": 3,
+    "cat_05": 1.54,
+    "cat_36": 2
+   }
+  },
+  {
+   "itemId": "item_0463",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 2.1,
+    "cat_03": 2.8,
+    "cat_39": 1.23,
+    "cat_02": 3.55,
+    "cat_37": 1.31,
+    "cat_38": 1.54,
+    "cat_04": 1.45,
+    "cat_35": 2.15,
+    "cat_05": 1.4,
+    "cat_36": 2.3
+   }
+  },
+  {
+   "itemId": "item_0464",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.76,
+    "cat_03": 3.65,
+    "cat_39": 1.22,
+    "cat_02": 3.65,
+    "cat_37": 1.2,
+    "cat_38": 1.78,
+    "cat_04": 1.54,
+    "cat_35": 1.98,
+    "cat_05": 1.52,
+    "cat_36": 2
+   }
+  },
+  {
+   "itemId": "item_0465",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.19,
+    "cat_03": 9,
+    "cat_39": 1.08,
+    "cat_02": 6,
+    "cat_37": 1.03,
+    "cat_38": 3.75,
+    "cat_04": 1.38,
+    "cat_35": 2.4,
+    "cat_05": 1.84,
+    "cat_36": 1.64
+   }
+  },
+  {
+   "itemId": "item_0466",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 2.25,
+    "cat_03": 2.6,
+    "cat_39": 1.25,
+    "cat_02": 3.4,
+    "cat_37": 1.35,
+    "cat_38": 1.47,
+    "cat_04": 1.96,
+    "cat_35": 1.56,
+    "cat_05": 1.76,
+    "cat_36": 1.7
+   }
+  },
+  {
+   "itemId": "item_0467",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 4.7,
+    "cat_03": 1.56,
+    "cat_39": 1.17,
+    "cat_02": 4.5,
+    "cat_37": 2.15,
+    "cat_38": 1.14,
+    "cat_04": 1.38,
+    "cat_35": 2.35,
+    "cat_05": 1.46,
+    "cat_36": 2.15
+   }
+  },
+  {
+   "itemId": "item_0468",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 5.6,
+    "cat_03": 1.41,
+    "cat_39": 1.13,
+    "cat_02": 5.2,
+    "cat_37": 2.5,
+    "cat_38": 1.1,
+    "cat_04": 1.29,
+    "cat_35": 2.75,
+    "cat_05": 1.44,
+    "cat_36": 2.2
+   }
+  },
+  {
+   "itemId": "item_0469",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.62,
+    "cat_03": 4.4,
+    "cat_39": 1.22,
+    "cat_02": 3.65,
+    "cat_37": 1.14,
+    "cat_38": 1.96,
+    "cat_04": 1.72,
+    "cat_35": 1.74,
+    "cat_05": 1.72,
+    "cat_36": 1.74
+   }
+  },
+  {
+   "itemId": "item_0470",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 3.5,
+    "cat_03": 1.72,
+    "cat_39": 1.19,
+    "cat_02": 3.95,
+    "cat_37": 1.82,
+    "cat_38": 1.21,
+    "cat_04": 1.43,
+    "cat_35": 2.2,
+    "cat_05": 1.44,
+    "cat_36": 2.2
+   }
+  },
+  {
+   "itemId": "item_0471",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.32,
+    "cat_03": 7,
+    "cat_39": 1.1,
+    "cat_02": 5.7,
+    "cat_37": 1.05,
+    "cat_38": 3.1,
+    "cat_04": 1.28,
+    "cat_35": 2.85,
+    "cat_05": 1.52,
+    "cat_36": 2.05
+   }
+  },
+  {
+   "itemId": "item_0472",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.09,
+    "cat_03": 17,
+    "cat_39": 1.03,
+    "cat_02": 8,
+    "cat_38": 5.9,
+    "cat_04": 1.46,
+    "cat_35": 2.15,
+    "cat_05": 2.7,
+    "cat_36": 1.3
+   }
+  },
+  {
+   "itemId": "item_0473",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 3,
+    "cat_03": 2.35,
+    "cat_39": 1.35,
+    "cat_02": 2.75,
+    "cat_37": 1.43,
+    "cat_38": 1.28,
+    "cat_04": 2.85,
+    "cat_35": 1.28,
+    "cat_05": 2.25,
+    "cat_36": 1.43
+   }
+  },
+  {
+   "itemId": "item_0474",
+   "source": "source_02",
+   "observedAt": null,
+   "references": {
+    "cat_01": 1.66,
+    "cat_03": 4.7,
+    "cat_39": 1.25,
+    "cat_02": 3.35,
+    "cat_37": 1.12,
+    "cat_38": 1.92,
+    "cat_04": 2.15,
+    "cat_35": 1.45,
+    "cat_05": 2.05,
+    "cat_36": 1.5
+   }
+  },
+  {
+   "itemId": "item_0148",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:53.723Z",
+   "references": {
+    "cat_01": 1.83,
+    "cat_03": 3.89,
+    "cat_02": 3.83,
+    "cat_04": 1.59,
+    "cat_35": 2.29
+   }
+  },
+  {
+   "itemId": "item_0149",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:53.744Z",
+   "references": {
+    "cat_01": 2.74,
+    "cat_03": 2.48,
+    "cat_02": 3.4,
+    "cat_04": 1.78,
+    "cat_35": 1.98
+   }
+  },
+  {
+   "itemId": "item_0150",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:53.766Z",
+   "references": {
+    "cat_01": 2.22,
+    "cat_03": 3.28,
+    "cat_02": 3.29,
+    "cat_04": 2,
+    "cat_35": 1.76
+   }
+  },
+  {
+   "itemId": "item_0151",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:53.789Z",
+   "references": {
+    "cat_01": 1.34,
+    "cat_03": 7.68,
+    "cat_02": 5.39,
+    "cat_04": 1.39,
+    "cat_35": 2.86
+   }
+  },
+  {
+   "itemId": "item_0197",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:53.813Z",
+   "references": {
+    "cat_01": 6.54,
+    "cat_03": 1.47,
+    "cat_02": 4.41,
+    "cat_04": 1.7,
+    "cat_35": 2.08
+   }
+  },
+  {
+   "itemId": "item_0136",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:53.935Z",
+   "references": {
+    "cat_01": 3.97,
+    "cat_03": 1.79,
+    "cat_02": 3.77,
+    "cat_04": 1.61,
+    "cat_35": 2.21
+   }
+  },
+  {
+   "itemId": "item_0152",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:53.976Z",
+   "references": {
+    "cat_01": 1.77,
+    "cat_03": 4.28,
+    "cat_02": 3.8,
+    "cat_04": 1.64,
+    "cat_35": 2.2
+   }
+  },
+  {
+   "itemId": "item_0153",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:53.991Z",
+   "references": {
+    "cat_01": 2.27,
+    "cat_03": 2.97,
+    "cat_02": 3.5,
+    "cat_04": 1.67,
+    "cat_35": 2.14
+   }
+  },
+  {
+   "itemId": "item_0109",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:54.052Z",
+   "references": {
+    "cat_01": 1.2,
+    "cat_03": 14.38,
+    "cat_02": 6.34,
+    "cat_04": 1.65,
+    "cat_35": 2.19
+   }
+  },
+  {
+   "itemId": "item_0157",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:54.074Z",
+   "references": {
+    "cat_01": 2.29,
+    "cat_03": 3.36,
+    "cat_02": 3.06,
+    "cat_04": 2.2,
+    "cat_35": 1.64
+   }
+  },
+  {
+   "itemId": "item_0158",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:54.094Z",
+   "references": {
+    "cat_01": 7.58,
+    "cat_03": 1.39,
+    "cat_02": 4.73,
+    "cat_04": 1.65,
+    "cat_35": 2.18
+   }
+  },
+  {
+   "itemId": "item_0159",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:54.116Z",
+   "references": {
+    "cat_01": 2.25,
+    "cat_03": 3.61,
+    "cat_02": 2.94,
+    "cat_04": 2.48,
+    "cat_35": 1.51
+   }
+  },
+  {
+   "itemId": "item_0177",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:54.139Z",
+   "references": {
+    "cat_01": 6.86,
+    "cat_03": 1.46,
+    "cat_02": 4.29,
+    "cat_04": 1.84,
+    "cat_35": 1.91
+   }
+  },
+  {
+   "itemId": "item_0192",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:54.163Z",
+   "references": {
+    "cat_01": 1.85,
+    "cat_03": 4.16,
+    "cat_02": 3.56,
+    "cat_04": 1.88,
+    "cat_35": 1.87
+   }
+  },
+  {
+   "itemId": "item_0106",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:54.229Z",
+   "references": {
+    "cat_01": 3.99,
+    "cat_03": 1.93,
+    "cat_02": 3.43,
+    "cat_04": 2.03,
+    "cat_35": 1.75
+   }
+  },
+  {
+   "itemId": "item_0154",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:54.260Z",
+   "references": {
+    "cat_01": 1.09,
+    "cat_03": 21.88,
+    "cat_02": 10.72,
+    "cat_04": 1.21,
+    "cat_35": 4.21
+   }
+  },
+  {
+   "itemId": "item_0156",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:54.331Z",
+   "references": {
+    "cat_01": 2.77,
+    "cat_03": 2.65,
+    "cat_02": 3.1,
+    "cat_04": 2.27,
+    "cat_35": 1.6
+   }
+  },
+  {
+   "itemId": "item_0188",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:54.365Z",
+   "references": {
+    "cat_01": 2.15,
+    "cat_03": 4.08,
+    "cat_02": 2.85,
+    "cat_04": 3.01,
+    "cat_35": 1.37
+   }
+  },
+  {
+   "itemId": "item_0097",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:54.449Z",
+   "references": {
+    "cat_01": 2.16,
+    "cat_03": 3.39,
+    "cat_02": 3.28,
+    "cat_04": 2.05,
+    "cat_35": 1.72
+   }
+  },
+  {
+   "itemId": "item_0098",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:54.465Z",
+   "references": {
+    "cat_01": 2.42,
+    "cat_03": 2.84,
+    "cat_02": 3.35,
+    "cat_04": 1.89,
+    "cat_35": 1.85
+   }
+  },
+  {
+   "itemId": "item_0099",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:54.481Z",
+   "references": {
+    "cat_01": 1.93,
+    "cat_03": 4.1,
+    "cat_02": 3.33,
+    "cat_04": 2.16,
+    "cat_35": 1.65
+   }
+  },
+  {
+   "itemId": "item_0100",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:54.498Z",
+   "references": {
+    "cat_01": 1.41,
+    "cat_03": 7.21,
+    "cat_02": 4.7,
+    "cat_04": 1.66,
+    "cat_35": 2.15
+   }
+  },
+  {
+   "itemId": "item_0145",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:54.518Z",
+   "references": {
+    "cat_01": 1.94,
+    "cat_03": 3.94,
+    "cat_02": 3.42,
+    "cat_04": 1.97,
+    "cat_35": 1.78
+   }
+  },
+  {
+   "itemId": "item_0146",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:54.539Z",
+   "references": {
+    "cat_01": 1.35,
+    "cat_03": 7.81,
+    "cat_02": 5.22,
+    "cat_04": 1.49,
+    "cat_35": 2.53
+   }
+  },
+  {
+   "itemId": "item_0147",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:54.559Z",
+   "references": {
+    "cat_01": 2.2,
+    "cat_03": 3.13,
+    "cat_02": 3.5,
+    "cat_04": 1.7,
+    "cat_35": 2.09
+   }
+  },
+  {
+   "itemId": "item_0134",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:54.720Z",
+   "references": {
+    "cat_01": 5.61,
+    "cat_03": 1.44,
+    "cat_02": 5.04,
+    "cat_04": 1.25,
+    "cat_35": 3.7
+   }
+  },
+  {
+   "itemId": "item_0135",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:54.761Z",
+   "references": {
+    "cat_01": 5.43,
+    "cat_03": 1.48,
+    "cat_02": 4.78,
+    "cat_04": 1.34,
+    "cat_35": 3.06
+   }
+  },
+  {
+   "itemId": "item_0160",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:55.068Z",
+   "references": {
+    "cat_01": 5.26,
+    "cat_03": 1.55,
+    "cat_02": 4.04,
+    "cat_04": 1.64,
+    "cat_35": 2.15
+   }
+  },
+  {
+   "itemId": "item_0190",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:55.104Z",
+   "references": {
+    "cat_01": 3.14,
+    "cat_03": 2.06,
+    "cat_02": 3.6,
+    "cat_04": 1.65,
+    "cat_35": 2.14
+   }
+  },
+  {
+   "itemId": "item_0191",
+   "source": "source_01",
+   "observedAt": "2026-09-01T21:21:55.144Z",
+   "references": {
+    "cat_01": 1.4,
+    "cat_03": 6.81,
+    "cat_02": 4.74,
+    "cat_04": 1.59,
+    "cat_35": 2.25
+   }
+  },
+  {
+   "itemId": "item_0281",
+   "source": "source_01",
+   "observedAt": "2026-09-04T07:04:43.557Z",
+   "references": {
+    "cat_01": 2.28,
+    "cat_03": 3.15,
+    "cat_02": 3.24,
+    "cat_04": 2.08,
+    "cat_35": 1.7
+   }
+  },
+  {
+   "itemId": "item_0282",
+   "source": "source_01",
+   "observedAt": "2026-09-04T07:04:43.728Z",
+   "references": {
+    "cat_01": 1.64,
+    "cat_03": 5.08,
+    "cat_02": 3.84,
+    "cat_04": 1.85,
+    "cat_35": 1.89
+   }
+  },
+  {
+   "itemId": "item_0284",
+   "source": "source_01",
+   "observedAt": "2026-09-04T07:04:43.808Z",
+   "references": {
+    "cat_01": 3.11,
+    "cat_03": 2.13,
+    "cat_02": 3.7,
+    "cat_04": 1.58,
+    "cat_35": 2.29
+   }
+  },
+  {
+   "itemId": "item_0277",
+   "source": "source_01",
+   "observedAt": "2026-09-04T07:04:43.962Z",
+   "references": {
+    "cat_01": 1.23,
+    "cat_03": 10.25,
+    "cat_02": 6.36,
+    "cat_04": 1.36,
+    "cat_35": 2.97
+   }
+  },
+  {
+   "itemId": "item_0278",
+   "source": "source_01",
+   "observedAt": "2026-09-04T07:04:43.996Z",
+   "references": {
+    "cat_01": 2.63,
+    "cat_03": 2.51,
+    "cat_02": 3.43,
+    "cat_04": 1.8,
+    "cat_35": 1.94
+   }
+  },
+  {
+   "itemId": "item_0279",
+   "source": "source_01",
+   "observedAt": "2026-09-04T07:04:44.035Z",
+   "references": {
+    "cat_01": 2.63,
+    "cat_03": 2.44,
+    "cat_02": 3.6,
+    "cat_04": 1.58,
+    "cat_35": 2.28
+   }
+  },
+  {
+   "itemId": "item_0280",
+   "source": "source_01",
+   "observedAt": "2026-09-04T07:04:44.074Z",
+   "references": {
+    "cat_01": 2.31,
+    "cat_03": 2.8,
+    "cat_02": 3.58,
+    "cat_04": 1.65,
+    "cat_35": 2.15
+   }
+  },
+  {
+   "itemId": "item_0283",
+   "source": "source_01",
+   "observedAt": "2026-09-04T07:04:44.104Z",
+   "references": {
+    "cat_01": 5.73,
+    "cat_03": 1.5,
+    "cat_02": 4.43,
+    "cat_04": 1.58,
+    "cat_35": 2.27
+   }
+  }
+ ]
+}

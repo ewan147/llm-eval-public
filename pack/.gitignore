@@ -1,0 +1,17 @@
+node_modules/
+*.log
+
+# Sorties d'exécution : régénérables, jamais à versionner.
+runs/
+examples/runs/
+examples/sorties/*.json
+rapport-*.html
+rapport-*.md
+audit-*.html
+drift.html
+
+# Éditeurs et systèmes
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
